@@ -2,6 +2,10 @@
 
 A tiny expressive new-tab clock that gets sleepy at bedtime, cheers you on in the morning, and wakes up if you gently poke its face. No backend, analytics, network requests, or dependencies.
 
+## Live preview
+
+The clock also runs as a normal webpage, so you can try it without installing the extension. Once GitHub Pages is enabled for this repository, open [the live demo](https://kaitlyn-xie-jj.github.io/sleepy-clock/). The clock uses your local time; the online preview does not replace your new tab.
+
 ## Install
 
 1. Open `chrome://extensions`, then enable **Developer mode**.
