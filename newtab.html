@@ -1,1 +1,29 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sleepy Clock</title><link rel="stylesheet" href="style.css"></head><body><main><div id="sky"><div class="stars">✦ &nbsp; ✧ &nbsp; ✦</div><div class="face" id="face"><div class="eyes"><i></i><i></i></div><div class="mouth"></div><div class="blush left"></div><div class="blush right"></div></div><div id="zzz">z z z</div></div><div id="time">--:--</div><div id="date"></div><p id="message"></p><button id="mode">24-hour clock</button><small>click the face to wake it up ✨</small></main><script src="clock.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sleepy Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div id="sky">
+      <div class="stars" aria-hidden="true">✦ &nbsp; ✧ &nbsp; ✦</div>
+      <button class="face" id="face" type="button" aria-label="Wake up the sleepy clock">
+        <span class="eyes" aria-hidden="true"><i></i><i></i></span>
+        <span class="mouth" aria-hidden="true"></span>
+        <span class="blush left" aria-hidden="true"></span>
+        <span class="blush right" aria-hidden="true"></span>
+      </button>
+      <div id="zzz" aria-hidden="true">z z z</div>
+    </div>
+    <div id="time">--:--</div>
+    <div id="date"></div>
+    <p id="message"></p>
+    <button id="mode" type="button">24-hour clock</button>
+    <small>click the face to wake it up ✨</small>
+  </main>
+  <script src="clock.js"></script>
+</body>
+</html>
