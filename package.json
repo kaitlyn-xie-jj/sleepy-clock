@@ -1,0 +1,10 @@
+{
+  "name": "sleepy-clock",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check clock.js && node -e \"JSON.parse(require('node:fs').readFileSync('manifest.json', 'utf8'))\"",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
