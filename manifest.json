@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Sleepy Clock",
+  "version": "0.1.0",
+  "description": "A tiny expressive clock for your new tab.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}
